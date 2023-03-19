@@ -1,0 +1,8 @@
+This project was developed under the funding of a Night's And Weekend's Project,
+
+Otherwise known as a NAW project!
+
+Typically, NAW projects are underfunded & overdeveloped, yet push technology to its limits.
+Unfortunately though, NAW projects have no business objective or purpose; so they can't be sold.
+Later NAW code becomes suitable for open source code, or makes its way into production code
+during cut and paste operations.
