@@ -15,6 +15,7 @@ public class PlantServiceImpl implements PlantService {
     public PlantServiceImpl(PlantRepository plantRepository) {
         this.plantRepository = plantRepository;
     }
+
     @Override
     public List<Plant> getPlants(PlantType type) {
         return plantRepository.getPlants(type);
