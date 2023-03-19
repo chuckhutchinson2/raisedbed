@@ -6,19 +6,28 @@ import org.gardening.raisedbed.model.Plant;
 import org.gardening.raisedbed.model.PlantType;
 import org.gardening.raisedbed.model.SoilPh;
 import org.gardening.raisedbed.model.SunExposure;
+import org.gardening.raisedbed.service.PlantService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 // http://localhost:8080/swagger-ui.html
 @Slf4j
 @RestController
 @RequestMapping("/api/v1/garden")
 public class GardenController {
-    public GardenController() {
+    private PlantService plantService;
+    public GardenController(PlantService plantService) {
+        this.plantService = plantService;
+    }
+
+    @GetMapping("/plants/{plantType}")
+    ResponseEntity<List<Plant>> getPlants(@PathVariable PlantType plantType) {
+        List<Plant> plants = plantService.getPlants(plantType);
+
+        return new ResponseEntity<>(plants, HttpStatus.OK);
     }
 
     @PostMapping("/plant")
@@ -26,16 +35,11 @@ public class GardenController {
             tags = { "Garden"},
             summary = "Plant a plant in a raised bed",
             description = "")
-    ResponseEntity<Plant> plant (@RequestBody String plantName) {
-
-        Plant plant = new Plant();
-        plant.setBotanicalName(plantName);
-        plant.setType(PlantType.Fruit);
-        plant.setHardinessZone(1);
-        plant.setSunExposure(SunExposure.Full);
-        plant.setSoilPh(SoilPh.Neutral);
+    ResponseEntity<Plant> plant (@RequestBody Plant plant) {
 
         log.debug("plant {}", plant);
+
+        plantService.plant(plant);
 
         return new ResponseEntity<> (plant, HttpStatus.OK);
     }

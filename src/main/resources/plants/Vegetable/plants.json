@@ -1,0 +1,23 @@
+[
+  {
+    "botanicalName": "Broccoli",
+    "type": "Vegetable",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Spinach",
+    "type": "Fruit",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Carrot",
+    "type": "Fruit",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  }
+]

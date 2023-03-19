@@ -1,0 +1,23 @@
+[
+  {
+    "botanicalName": "Oregano",
+    "type": "Herbs",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Dill",
+    "type": "Herbs",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Rosemary",
+    "type": "Herbs",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  }
+]
