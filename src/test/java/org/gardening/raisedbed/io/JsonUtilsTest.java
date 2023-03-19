@@ -1,6 +1,5 @@
 package org.gardening.raisedbed.io;
 
-import jdk.internal.org.objectweb.asm.TypeReference;
 import lombok.extern.slf4j.Slf4j;
 import org.gardening.raisedbed.model.Plant;
 import org.junit.Test;
