@@ -18,8 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/hutchinsonchuck/]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -80,12 +78,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 ### Built With
-
-* [![SpringBoot][SpringBoot]][https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html]
-* [![Lombok][Lombok]][https://projectlombok.org/]
-* [![mvn][mvn]][https://maven.apache.org/]
-* [![java][java]][https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html]
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,9 +146,6 @@ Project Link: [https://github.com/chuckhutchinson2/raisedbed](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
