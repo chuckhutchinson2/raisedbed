@@ -1,0 +1,23 @@
+[
+  {
+    "botanicalName": "Apple",
+    "type": "Fruit",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Orange",
+    "type": "Fruit",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Pomegranate",
+    "type": "Fruit",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  }
+]
