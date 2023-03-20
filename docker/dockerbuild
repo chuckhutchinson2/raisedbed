@@ -1,0 +1,7 @@
+mkdir -p dist
+
+cp ../target/raisedbed-1.0-SNAPSHOT.jar dist/raisedbed-1.0-SNAPSHOT.jar
+
+docker build -t raisedbed .
+
+rm -fr dist
