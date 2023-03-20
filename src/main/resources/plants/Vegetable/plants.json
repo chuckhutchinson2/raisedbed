@@ -8,14 +8,14 @@
   },
   {
     "botanicalName": "Spinach",
-    "type": "Fruit",
+    "type": "Vegetable",
     "sunExposure": "Full",
     "soilPh": "Neutral",
     "hardinessZone": 1
   },
   {
     "botanicalName": "Carrot",
-    "type": "Fruit",
+    "type": "Vegetable",
     "sunExposure": "Full",
     "soilPh": "Neutral",
     "hardinessZone": 1
