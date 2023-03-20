@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 import java.util.stream.Collectors;
 
 public class FileUtils {
+    private FileUtils() {}
 
     public static String read(String classPath) {
         try {

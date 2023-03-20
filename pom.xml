@@ -86,6 +86,10 @@
                 <configuration>
                     <excludes>
                         <exclude>org/gardening/raisedbed/model/Plant.class</exclude>
+                        <exclude>org/gardening/raisedbed/model/PlantType.class</exclude>
+                        <exclude>org/gardening/raisedbed/model/SoilPh.class</exclude>
+                        <exclude>org/gardening/raisedbed/model/SunExposure.class</exclude>
+                        <exclude>org/gardening/raisedbed/RaisedBedApplication.class</exclude>
                     </excludes>
                 </configuration>
                 <executions>
@@ -112,6 +116,10 @@
                                     <element>CLASS</element>
                                     <excludes>
                                         <exclude>org/gardening/raisedbed/model/Plant.class</exclude>
+                                        <exclude>org/gardening/raisedbed/model/PlantType.class</exclude>
+                                        <exclude>org/gardening/raisedbed/model/SoilPh.class</exclude>
+                                        <exclude>org/gardening/raisedbed/model/SunExposure.class</exclude>
+                                        <exclude>org/gardening/raisedbed/RaisedBedApplication.class</exclude>
                                     </excludes>
                                     <limits>
                                         <limit>

@@ -18,8 +18,7 @@ import org.springframework.test.context.ActiveProfiles;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @ActiveProfiles("test")
 @RunWith(MockitoJUnitRunner.class)
@@ -39,5 +38,15 @@ public class PlantServiceImplTest {
         when(plantRepository.getPlants(type)).thenReturn(trees);
         plantService.getPlants(type);
         verify(plantRepository).getPlants(type);
+    }
+
+    @Test
+    public void testPlant() {
+        Plant plant = new Plant();
+        plant.setBotanicalName("apple");
+        plant.setType(PlantType.Fruit);
+        doNothing().when(plantRepository).plant(plant, plant.getType());
+        plantService.plant(plant);
+        verify(plantRepository).plant(plant, plant.getType());
     }
 }
