@@ -2,11 +2,9 @@ package org.gardening.raisedbed.repository.impl;
 
 import org.gardening.raisedbed.model.PlantType;
 import org.junit.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ActiveProfiles;
 
@@ -21,6 +19,6 @@ public class PlantRepositoryImplTest {
 
     @Test
     public void testGetPlants() {
-        assertNotNull(plantRepository.getPlants(PlantType.Vegetable));
+        assertNotNull(plantRepository.getPlants(PlantType.Vegetables));
     }
 }

@@ -1,0 +1,37 @@
+[
+  {
+    "botanicalName": "Broccoli",
+    "type": "Vegetables",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Spinach",
+    "type": "Vegetables",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Carrot",
+    "type": "Vegetables",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Potato",
+    "type": "Vegetables",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  },
+  {
+    "botanicalName": "Brussel Sprouts",
+    "type": "Vegetables",
+    "sunExposure": "Full",
+    "soilPh": "Neutral",
+    "hardinessZone": 1
+  }
+]

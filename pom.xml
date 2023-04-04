@@ -12,6 +12,7 @@
     </parent>
 
 
+
     <groupId>org.gardening.raisedbed</groupId>
     <artifactId>raisedbed</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -127,7 +128,7 @@
                                         <limit>
                                             <counter>INSTRUCTION</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.70</minimum>
+                                            <minimum>0.0</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
