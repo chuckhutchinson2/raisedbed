@@ -1,8 +1,8 @@
 package org.gardening.raisedbed.model;
 
 public enum PlantType {
-    Vegetable,
-    Fruit,
+    Vegetables,
+    Fruits,
     Herbs,
     Flowers,
     Foliage,

@@ -26,7 +26,7 @@ public class GardenController {
     @GetMapping("/plants/{plantType}")
     ResponseEntity<List<Plant>> getPlants(@PathVariable PlantType plantType) {
         List<Plant> plants = plantService.getPlants(plantType);
-
+        log.info("The plants being returned is Plants {}", plants);
         return new ResponseEntity<>(plants, HttpStatus.OK);
     }
 
@@ -34,7 +34,7 @@ public class GardenController {
     @Operation (
             tags = { "Garden"},
             summary = "Plant a plant in a raised bed",
-            description = "")
+            description = "hello world")
     ResponseEntity<Plant> plant (@RequestBody Plant plant) {
 
         log.debug("plant {}", plant);

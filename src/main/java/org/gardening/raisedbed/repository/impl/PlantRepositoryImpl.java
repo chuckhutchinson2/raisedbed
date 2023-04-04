@@ -39,8 +39,8 @@ public class PlantRepositoryImpl implements PlantRepository {
         }
 
         // preload some plant types
-        garden.put(PlantType.Fruit,loadPlants(PlantType.Fruit));
-        garden.put(PlantType.Vegetable,loadPlants(PlantType.Vegetable));
+        garden.put(PlantType.Fruits,loadPlants(PlantType.Fruits));
+        garden.put(PlantType.Vegetables,loadPlants(PlantType.Vegetables));
         garden.put(PlantType.Herbs, loadPlants(PlantType.Herbs));
 
         return garden;
